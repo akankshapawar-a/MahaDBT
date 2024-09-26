@@ -36,7 +36,7 @@ const Comment = () => {
 
   
   return (
-    <div className=' dark:bg-gray-800 h-screen py-6 space-y-6 w-full '>
+    <div className=' dark:bg-gray-800   space-y-6 w-full '>
  <div className="relative  items-top justify-center  dark:bg-gray-800 sm:mt-0 sm:pt-0 bg-gray-100">
     <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
         <div className="mt-8 overflow-hidden">

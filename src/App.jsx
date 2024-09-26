@@ -8,32 +8,30 @@ function App() {
   return (
     <>
     <Navbar/>
-       <div className="h-screen overflow-y-scroll snap-y snap-mandatory">
+       <div className="h-screen overflow-y-scroll snap-y snap-mandatory  justify-center items-center">
       {/* Page 1 */}
-      <section className="h-screen  snap-start flex ">
+      <section className=" ">
         <Page1/>
-       
+        <Comment/>
       </section>
 
       {/* Page 2 */}
-      <section className="h-screen  snap-start flex justify-center items-center">
+      {/* <section className="h-screen  snap-start flex justify-center items-center">
        
-      </section>
+      </section> */}
 
       {/* Page 3 */}
-      <section className="h-screen bg-green-500 snap-start flex justify-center items-center">
-        <h1 className="text-4xl text-white">Page 3</h1>
-      </section>
-
-      {/* Page 4 */}
-      <section className="h-screen bg-yellow-500 snap-start flex justify-center items-center">
-        <h1 className="text-4xl text-white">Page 4</h1>
-      </section>
+      {/* <section className="h-screen  snap-start flex justify-center items-center">
+       
+      </section> */}
+      {/* <section className="h-screen  snap-start flex justify-center items-center">
+       
+       </section> */}
 
       {/* Page 5 */}
-      <section className="h-screen snap-start flex justify-center items-center">
+      {/* <section className="h-screen snap-start flex justify-center items-center">
         <Comment/>
-      </section>
+      </section> */}
     </div>
 
     </>
