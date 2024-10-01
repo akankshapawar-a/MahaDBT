@@ -1,21 +1,37 @@
 import React from 'react'
 import photo4 from '../assets/photo4.jpg'
 import image1 from '../assets/image1.png'
+import { Helmet } from 'react-helmet-async'; 
+
 const Page1 = () => {
   return (
     <div className='mt-2 pl-10 pr-5'>
+
+<Helmet>
+        <title>Lek Ladki Yojana Maharashtra - Government Scheme</title>
+        <meta name="description" content="Learn about the Lek Ladki Yojana Maharashtra. Find details on how the scheme helps girls receive up to Rs. 1,01,000 from the government." />
+        <meta name="keywords" content="Lek Ladki Yojana, Maharashtra government schemes, financial aid for girls, government assistance" />
+        <meta property="og:title" content="Lek Ladki Yojana Maharashtra" />
+        <meta property="og:description" content="Maharashtra's Lek Ladki Yojana provides financial aid for girls, offering up to Rs. 1,01,000." />
+        <meta property="og:image" content={photo4} />
+        <meta property="og:url" content="" />
+        <link rel="canonical" href="" />
+      </Helmet>
+
+      <h1 className='font-bold text-2xl mb-10 mt-6 text-center'>Lek Ladki Yojana Maharashtra</h1>
      <p className='text-xl font-bold pl-10  '> Lek Ladki Yojana Maharashtra:  लेक लाडकी योजनेतून मुलींना मिळणार 1 लाख 1 हजार रुपये, घरी बसून असे करा अर्ज ..... </p>
     <div className=' justify-center items-center mt-10 ss:pl-5 sm: pl-60 xxs:pl-5 2ss:pl-5 '>
-        <img src={photo4} className='h-half ss:w-screen '/>
+        <img src={photo4} className='h-half ss:w-screen ' alt=' Lek Ladki Yojana '/>
     </div>
-    <div className='mt-4 align-baseline'><p>मुलींचे भविष्य उज्ज्वल करण्यासाठी सरकार सर्वतोपरी प्रयत्न करत असून, त्यासाठी नवनवीन योजनाही सुरू केल्या जात आहेत. त्याचप्रमाणे आता महाराष्ट्र सरकारने मुलींसाठी लेच लाडकी योजना सुरू केली असून, त्याद्वारे मुलींच्या जन्मापासून ते १८ वर्षे पूर्ण होईपर्यंत सरकार त्यांना १ लाख १ हजार रुपयांची मदत करणार आहे.</p>
-        <p>सरकार मुलींना ही मदत रक्कम हप्त्याच्या स्वरूपात देईल जी थेट मुलींच्या बँक खात्यात हस्तांतरित केली जाईल. महाराष्ट्र सरकारने सुरू केलेल्या लेक लाडकी योजनेंतर्गत राज्यातील मुलींना जन्माच्या वेळी पहिला हप्ता मिळणार आहे. शेवटच्या हप्त्याचे पैसे 18 वर्षे पूर्ण झाल्यानंतर सरकार जारी करेल. लेच लाडकी योजनेचा लाभ घेऊ इच्छिणाऱ्या महाराष्ट्र राज्यातील इच्छुक मुली अर्ज करू शकतात. या पोस्टमध्ये तुम्हाला लेक लाडकी योजनेबद्दल संपूर्ण माहिती मिळेल, त्यामुळे लेखात शेवटपर्यंत रहा.
+    <div className='mt-4 align-baseline'><p>मुलींचे भविष्य उज्ज्वल करण्यासाठी सरकार सर्वतोपरी प्रयत्न करत असून, त्यासाठी नवनवीन योजनाही सुरू केल्या जात आहेत. त्याचप्रमाणे आता महाराष्ट्र सरकारने मुलींसाठी  लेक लाडकी योजना सुरू केली असून, त्याद्वारे मुलींच्या जन्मापासून ते १८ वर्षे पूर्ण होईपर्यंत सरकार त्यांना १ लाख १ हजार रुपयांची मदत करणार आहे.</p>
+        <p>सरकार मुलींना ही मदत रक्कम हप्त्याच्या स्वरूपात देईल जी थेट मुलींच्या बँक खात्यात हस्तांतरित केली जाईल. महाराष्ट्र सरकारने सुरू केलेल्या लेक लाडकी योजनेंतर्गत राज्यातील मुलींना जन्माच्या वेळी पहिला हप्ता मिळणार आहे. शेवटच्या हप्त्याचे पैसे 18 वर्षे पूर्ण झाल्यानंतर सरकार जारी करेल.  लेक लाडकी योजनेचा लाभ घेऊ इच्छिणाऱ्या महाराष्ट्र राज्यातील इच्छुक मुली अर्ज करू शकतात. या पोस्टमध्ये तुम्हाला लेक लाडकी योजनेबद्दल संपूर्ण माहिती मिळेल, त्यामुळे लेखात शेवटपर्यंत रहा.
 
         </p>
         <div className=' justify-center items-center mt-10'>
-          <h1 className='text-xl font-bold mt-4'>Lek Ladki Yojana Maharashtra 2023 Key Points
-          </h1>
+          <h2 className='text-xl font-bold mt-4'>Lek Ladki Yojana Maharashtra 2023 Key Points
+          </h2>
         <table className='border-1 border-solid border-black p-2 w-11/12 ml-4 mt-2 text-center justify-center'>
+        <tbody>
   <tr className='border-2 border-solid border-black  p-2 '>
     <td className='border-2 border-solid border-black  p-2 '>योजनेचे नाव
     </td>
@@ -59,6 +75,7 @@ const Page1 = () => {
     <td className='border-2 border-solid border-black  p-2 '>राज्य के पीले आणि नारंगी राशन कार्डधारक परिवार की सर्व बालके.
     </td>
   </tr>
+  </tbody>
 </table>
 
 </div>
@@ -68,7 +85,7 @@ const Page1 = () => {
 
 
 <div className=' justify-center items-center mt-10 ss:pl-5 sm: pl-60  xxs:pl-5 2ss:pl-5'>
-        <img src={image1} className='h-half ss:w-screen sm:w-9/12'/>
+        <img src={image1} className='h-half ss:w-screen sm:w-9/12' alt='Lek Ladki Yojana Maharashtra'/>
     </div>
    
 <div className='pl-10 mt-4'>
@@ -91,7 +108,7 @@ const Page1 = () => {
     <div className=' justify-center mt-4'>
   <p className='font-bold text-xl mt-4 '>या पाच चरणांमध्ये पैसे प्राप्त होतील:</p>
   <table className='border-2 border-solid border-black p-2 ml-10 mt-4'>
-
+<tbody>
     <tr className='border-2 border-solid border-black p-2'>
       <td className='border-2 border-solid border-black p-2'>1. मुलीचा जन्म झाल्यावर</td>
       <td className='border-2 border-solid border-black p-2'>5000/- रुपये</td>
@@ -112,11 +129,12 @@ const Page1 = () => {
       <td className='border-2 border-solid border-black p-2'>5. १८ वर्षांच्या वयात</td>
       <td className='border-2 border-solid border-black p-2'>75000/- रुपये</td>
     </tr>
+    </tbody>
   </table>
 </div>
 
 <div>
-<h1 className='font-bold text-lg mt-6 '>लेक लाडकी योजना महाराष्ट्र 2023 साठी पात्रता निकष : </h1>
+<h2 className='font-bold text-lg mt-6 '>लेक लाडकी योजना महाराष्ट्र 2023 साठी पात्रता निकष : </h2>
 <ul className='mt-4'>
 <li>1. अर्जदार महाराष्ट्राचा निवासी असावा.</li>
 <li>2. लेक लाडकी योजनेसाठी केवळ राज्यातील मुलींच पात्र असतील.</li>
@@ -128,7 +146,7 @@ const Page1 = () => {
 
 
 <div className='mt-5'>
-<h1 className='font-bold text-lg'>लेक लाडकी योजना महाराष्ट्र 2023 कागदपत्र</h1>
+<h2 className='font-bold text-lg'>लेक लाडकी योजना महाराष्ट्र 2023 कागदपत्र</h2>
 <ul className='mt-4'>
 <li>- पिवळा किंवा नारंगी रंगाचे</li>
 <li>- मुलीच्या पालकांचे आधार कार्</li>
@@ -142,16 +160,18 @@ const Page1 = () => {
 </ul>
 </div>
 <div>
-  <h1 className='font-bold text-lg mt-8 '>Lek Ladki Yojana Official Website :
+  <h2 className='font-bold text-lg mt-8 '>Lek Ladki Yojana Official Website :
   <table className='border-1 border-solid border-black w-11/12 ml-4 text-center justify-center mt-4'>
+  <tbody>
   <tr className='border-2 border-solid border-black p-2'>
     <td className='border-2 border-solid border-black p-2'>Official Website
     </td>
     <td className='border-2 border-solid border-black p-2 text-blue-500'><a href='https://lekladkiyojana.in/lek-ladki-yojana-registration-started-apply-now/'>Click Here</a>
     </td>
   </tr>
+  </tbody>
   </table>
-  </h1>
+  </h2>
 
 </div>
     </div>
