@@ -12,7 +12,7 @@ const InformationData = () => {
     return (
 
         <>
-            <div className=" w-11/12 justify-center ml-16 " >
+            <div className=" w-11/12 justify-center ml-16 ss:ml-6 ss:mr-5 xs:mr-5 xs:ml-6 xxs:ml-6 xxs:mr-5" >
                 <h1 className='font-bold text-2xl mb-10 mt-6 text-center'>MahaDBT Scholarship 2024-25: Schemes
 
                 </h1>
@@ -32,8 +32,8 @@ const InformationData = () => {
                     <li>- शिष्यवृत्ती रिडीम करण्याच्या तारखा: डिसेंबर 2025</li>
                 </ul>
 
-                <div className='mt-6 justify-between items-center pl-48 h-50 '>
-                    <img src={download} alt='MahaDBT Portal' height={45} className='pl-44 border-4 h-80' />
+                <div className='mt-6 justify-between items-center pl-48 h-50 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0 '>
+                    <img src={download} alt='MahaDBT Portal' height={45} className='pl-44 border-4 h-80 ss:mr-4 xs:mr-4 xxs:mr-4 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0 ss:pr-2 xs:pr-2 xxs:pr-2 2ss:pr-2' />
                 </div>
 
                 <h2 className='font-bold text-lg mt-8 mb-2'> MahaDBT फायदे
@@ -64,7 +64,7 @@ const InformationData = () => {
                 </ol>
                 <h2 className='font-bold text-lg mt-4 mb-2'>आवश्यक कागदपत्रे
                 </h2>
-                <ul className=' list-disc'>
+                <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                     <li>आधार कार्ड
                     </li>
                     <li>एसएससी/एचएससी मार्कशीट
@@ -82,14 +82,14 @@ const InformationData = () => {
 
             </div>
             <hr className='my-8'/>
-            <div className=" w-11/12 justify-center ml-16 mt-4 mb-2" >
+            <div className=" w-11/12 justify-center ml-16 mt-4 mb-2 ss:ml-6 ss:mr-5 xs:mr-5 xs:ml-6 xxs:ml-6 xxs:mr-5" >
                 <h2 className='font-bold text-xl te mt-4 text-center mb-2'>
                     भारत सरकार मॅट्रिकोत्तर शिष्यवृत्ती:</h2>
                 <h3 className='font-bold text-lg mt-4  mb-2'>भारत सरकार मॅट्रिकोत्तर शिष्यवृत्ती</h3>
                 <p>भारतातील अभ्यासासाठी अनुसूचित जमातीच्या विद्यार्थ्यांना मॅट्रिकोत्तर शिष्यवृत्ती योजना</p>
                 <h2 className='font-bold text-xl mt-4 mb-2'>फायदे</h2>
                 <p>[वसतिगृह/डे स्कॉलर्स] प्रति महिना-</p>
-                <ul className=' list-disc'>
+                <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                     <li>गट १ : १२००/५५० रु, गट २ : ८२०/५३० रु, गट ३ : ५७०/३०० रु, गट ४ : ३८०/२३० रु</li>
                     <li>या वाचक भत्त्यासाठी अतिरिक्त : गट 1-2 : 240 रुपये, गट 3 : 200 रुपये, गट 4: 160 रुपये</li>
                     <li> एस्कॉर्ट भत्ता: 160 रुपये/महिना</li>
@@ -102,7 +102,7 @@ const InformationData = () => {
                 </h2>
                 <p>फक्त ST साठी लागू
                 </p>
-                <ul className=' list-disc'>
+                <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                     <li>
                         जर कौटुंबिक उत्पन्न &lt; = 2,50,000 असेल तर त्याला शिष्यवृत्ती मिळेल
                     </li>
@@ -116,7 +116,7 @@ const InformationData = () => {
 
                 <h2 className='font-bold text-xl mt-4 mb-2'>नूतनीकरण धोरण
                 </h2>
-                <ul className=' list-disc'>
+                <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                     <li>विद्यार्थ्याला मागील वर्षाची परीक्षा उत्तीर्ण होणे आवश्यक आहे</li>
                     <li> जर विद्यार्थी कोणत्याही वर्षी नापास झाला तर त्याला त्या विशिष्ट वर्षाची शिष्यवृत्ती दिली जात नाही</li>
                     <li>शिष्यवृत्तीच्या नूतनीकरणासाठी विद्यार्थ्याला अर्ज करावा लागेल</li>
@@ -140,7 +140,7 @@ const InformationData = () => {
                     </h2>
                     <h2 className='font-bold text-xl mt-4 mb-2'>पात्रता निकष
                     </h2>
-                    <ul className=' list-disc'>
+                    <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                         <li>
                             विद्यार्थी एससी प्रवर्गातील असणे आवश्यक आहे.</li>
                         <li>शिष्यवृत्तीसाठी पात्र कोणतीही उत्पन्न मर्यादा नाही.</li>
@@ -150,7 +150,7 @@ const InformationData = () => {
                         </li>
                     </ul>
                     <h2 className='font-bold text-xl mt-4 mb-2'>फायदे</h2>
-                    <ul className=' list-disc'>
+                    <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                         <li>
                             या योजनेअंतर्गत, एस.एस.सी.च्या परीक्षेत ७५% किंवा त्याहून अधिक गुण मिळवणाऱ्या आणि ११व्या वर्गात प्रवेश घेणाऱ्या अनुसूचित जातीच्या विद्यार्थ्यांना दरमहा ₹३०० ची शिष्यवृत्ती मिळेल.</li>
                         <li>ही शिष्यवृत्ती प्रत्येक वर्षी 10 महिन्यांसाठी, दोन वर्षांसाठी-विशेषत: 11वी आणि 12वी इयत्ते दरम्यान दिली जाईल.</li>
@@ -159,7 +159,7 @@ const InformationData = () => {
                     </ul>
                     <h2 className='font-bold text-xl mt-4 mb-2'>आवश्यक कागदपत्रे
                     </h2>
-                    <ul className=' list-disc'>
+                    <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                         <li>जातीचा दाखला
                         </li>
                         <li>10वी ग्रेड मार्क शीट
@@ -179,7 +179,7 @@ const InformationData = () => {
                     <h2 className='font-bold text-xl mt-4 mb-2'>पात्रता निकष
                     </h2>
                     <p>(As per the Government Resolutions dated 7th Oct 2017, 1st March 2018, 31st March 2018, 11th July 2019, and 8th July 2024)</p>
-                    <ul className=' list-disc'>
+                    <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                         <li>अर्जदार भारतीय नागरिक असणे आवश्यक आहे.</li>
                         <li>उमेदवार महाराष्ट्राचा रहिवासी असणे आवश्यक आहे.</li>
                         <li>ते एखाद्या संस्थेचे प्रामाणिक विद्यार्थी असले पाहिजेत आणि GR मध्ये नमूद केल्यानुसार व्यावसायिक किंवा तांत्रिक अभ्यासक्रमात (डिप्लोमा/ग्रॅज्युएशन/पोस्ट-ग्रॅज्युएशन) प्रवेश घेतला पाहिजे.
@@ -219,7 +219,7 @@ const InformationData = () => {
                         </ul>
                         <h2 className='font-bold text-2xl mt-4 mb-2'>नूतनीकरण अर्जांसाठी:
                         </h2>
-                        <ul className=' list-disc m;-4'>
+                        <ul className=' list-disc mt-4 ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                             <li>मागील वर्षाचे वार्षिक कौटुंबिक उत्पन्न प्रमाणपत्र.</li>
                             <li>मागील वर्षाची गुणपत्रिका.</li>
                         </ul>
@@ -268,7 +268,7 @@ const InformationData = () => {
                         </li>
                     </ul>
                     <h2 className='font-bold text-2xl mt-4 mb-2'>आवश्यक कागदपत्रे</h2>
-                    <ul className=' list-disc'>
+                    <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                         <li>दहावी (S.S.C) पासून गुणपत्रिका
                         </li>
                         <li>महाराष्ट्राचे अधिवास प्रमाणपत्र
@@ -290,12 +290,12 @@ const InformationData = () => {
                     </h2>
                     <p>महाडीबीटी शिष्यवृत्तीसाठी नोंदणी आणि अर्ज करण्यासाठी, महाडीबीटी प्लॅटफॉर्मवर नोंदणी आणि लॉगिन प्रक्रिया सुरू करण्यापूर्वी तुम्ही तुमच्या मार्कशीट, कौटुंबिक उत्पन्न प्रमाणपत्रे आणि इतर आवश्यक कागदपत्रांच्या स्कॅन केलेल्या प्रती तयार असल्याची खात्री करा.
                     </p>
-                    <ul className=' list-disc'>
+                    <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                         <li><a href='https://mahadbt.maharashtra.gov.in/' className=' text-blue-600'>MahaDBT Portal</a>  ला भेट द्या.</li>
                         <li><b>‘नवीन अर्जदार नोंदणी’</b> पर्यायावर क्लिक करा.
                         </li>
-                        <div className='mt-6 justify-between items-center pl-48 h-50'>
-                            <img src={MahaDBT} alt='MahaDBT login' height={45} className='pl-44 ' />
+                        <div className='mt-6  pl-48 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0 h-50'>
+                            <img src={MahaDBT} alt='MahaDBT login' height={45} className='pl-44 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0 ' />
                         </div>
                         <li className='mt-4'>तुमचे नाव, वापरकर्तानाव, पासवर्ड, पासवर्ड कन्फर्म, ईमेल आयडी आणि मोबाईल नंबर टाका.
                         </li>
@@ -310,27 +310,28 @@ const InformationData = () => {
                     </ul>
 <hr className='my-8'/>
                     <h2 className='font-bold text-2xl text-center mt-4 mb-2'>MahaDBT Registration with Aadhaar Number</h2>
-                    <ul className=' list-disc'>
+                    <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                         <li><a href='https://mahadbt.maharashtra.gov.in/' className='text-blue-600'>
                             MahaDBT registration </a> ला भेट द्या.</li>
                         <li>तुम्हाला दोन नोंदणी पर्याय दिसतील - UID-आधारित नोंदणी आणि नॉन-UID-आधारित नोंदणी.</li>
                         <li><b>"तुमच्याकडे आधार कार्ड आहे का?"</b> असे विचारल्यास, तुमच्याकडे आधार क्रमांक असल्यास <b>'होय'</b> निवडा किंवा तुमच्याकडे नसल्यास <b>'नाही'</b> निवडा.</li>
-
-                        <div className='mt-6 justify-between items-center pl-48 h-50'>
-                            <img src={Registration} alt='MahaDBT login' height={45} className='pl-44 ' />
+                        </ul>
+                        <div className='mt-6 justify-between items-center pl-48 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0 h-50'>
+                            <img src={Registration} alt='MahaDBT login' height={45} className='pl-44 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0 ' />
                         </div>
 
                         <h2 className='font-bold text-2xl mt-4 mb-2'>प्रमाणीकरण पद्धती:
                         </h2>
+                        <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                         <li>OTP प्रमाणीकरण: तुमचा मोबाईल नंबर तुमच्या आधारशी लिंक असल्यास, तुमचा प्रमाणीकरण प्रकार म्हणून OTP निवडा.
                         </li>
                         <li>बायोमेट्रिक प्रमाणीकरण: तुमचा मोबाइल नंबर आधारशी लिंक नसल्यास, बायोमेट्रिक प्रमाणीकरण निवडा.</li>
-
-                    </ul>
+                        </ul>
+                  
 
                     <h2 className='font-bold text-xl mt-4 mb-2'>OTP प्रमाणीकरणासाठी:
                     </h2>
-                    <ul className=' list-disc'>
+                    <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                         <li>मार्गदर्शनासाठी <b>"ओटीपी वापरणे"</b> बटणाच्या पुढील <b>"कसे पहा"</b> वर क्लिक करा.</li>
                         <li>तुमच्याकडे आधार क्रमांक असल्यास, <b>“होय”</b> निवडा.</li>
                         <li>तुमचा आधार क्रमांक प्रविष्ट करा, OTP पर्याय निवडा आणि<b>"ओटीपी पाठवा"</b> वर क्लिक करा.</li>
@@ -342,7 +343,7 @@ const InformationData = () => {
                 </div>
                 <h2 className='font-bold text-xl mt-4 mb-2'>बायोमेट्रिक प्रमाणीकरणासाठी:
                 </h2>
-                <ul className=' list-disc'>
+                <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                     <li>मार्गदर्शनासाठी <b>"बायोमेट्रिक वापरणे"</b> बटणाच्या पुढील <b>"कसे पहा"</b> वर क्लिक करा.</li>
                     <li>तुमच्याकडे आधार क्रमांक असल्यास, <b>“होय”</b> निवडा.</li>
                     <li>तुमचा आधार क्रमांक टाका आणि <b>"बायोमेट्रिक"</b> पर्याय निवडा.</li>
@@ -354,45 +355,45 @@ const InformationData = () => {
                     <li>आपले वापरकर्तानाव आणि संकेतशब्द प्रविष्ट करा आणि <b>"जतन करा"</b> वर क्लिक करा.
                     </li>
                 </ul>
-                <div className='mt-6 justify-between items-center pl-48 h-50'>
-                    <img src={Option} alt='MahaDBT Regresation' height={45} className='pl-44 ' />
+                <div className='mt-6 justify-between items-center pl-48 h-50 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0'>
+                    <img src={Option} alt='MahaDBT Regresation' height={45} className='pl-44 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0 ' />
                 </div>
                 <h2 className='font-bold text-xl mt-4 mb-2'>
                     नोंदणीची प्रक्रिया सुरू ठेवत आहे</h2>
-                <ul className=' list-disc'>
+                <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                     <li>
                         तुमचा आधार क्रमांक टाका आणि <b>"ओटीपी पाठवा"</b> वर क्लिक करा.</li>
                     <li>प्रणाली तुमचा आधार क्रमांक सत्यापित करेल आणि तुमच्या नोंदणीकृत मोबाइल नंबरवर एक OTP पाठवेल.
                     </li>
 
                 </ul>
-                <div className='mt-6 justify-between items-center pl-48 h-50'>
-                    <img src={click} alt='MahaDBT click' height={45} className='pl-44 ' />
+                <div className='mt-6 justify-between items-center pl-48 h-50 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0'>
+                    <img src={click} alt='MahaDBT click' height={45} className='pl-44 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0' />
                 </div>
 
-                <ul className=' list-disc mt-6'>
+                <ul className=' list-disc mt-6 ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                     <li>एक मेसेज ओटीपी पाठवला गेल्याची पुष्टी करेल. <b>"ओके" </b>वर क्लिक करा.</li>
                     <li>प्राप्त झालेला OTP एंटर करा आणि <b>“Verify OTP”</b> वर क्लिक करा.</li>
                 </ul>
-                <div className='mt-6 justify-between items-center pl-48 h-50'>
-                    <img src={verify} alt='MahaDBT verify' height={45} className='pl-44 ' />
+                <div className='mt-6 justify-between items-center pl-48 h-50 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0'>
+                    <img src={verify} alt='MahaDBT verify' height={45} className='pl-44 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0 ' />
                 </div>
-                <ul className=' list-disc mt-6'>
+                <ul className=' list-disc mt-6 ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                     <li >यशस्वी OTP पडताळणीनंतर, नोंदणीसाठी पुढे जाण्यासाठी <b>"ओके"</b> वर क्लिक करा.</li>
                     <li>प्रणाली आपोआप UIDAI कडून तुमचा वैयक्तिक, पत्ता आणि बँक तपशील भरेल.
                     </li>
                 </ul>
-                <div className='mt-6 justify-between items-center pl-48 h-50'>
-                    <img src={NewRegistration} alt='MahaDBT newRegistration' height={45} className='pl-44 ' />
+                <div className='mt-6 justify-between items-center pl-48 h-50 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0'>
+                    <img src={NewRegistration} alt='MahaDBT newRegistration' height={45} className='pl-44 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0 ' />
                 </div>
-                <ul className=' list-disc'>
+                <ul className=' list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                     <li className='mt-6'>
                         एक वापरकर्तानाव आणि पासवर्ड तयार करा. वापरकर्तानाव 5 ते 14 वर्णांचे असावे, ज्यामध्ये फक्त अक्षरे आणि संख्या असतील.</li>
                 </ul>
-                <div className='mt-6 justify-between items-center pl-48 h-50'>
-                    <img src={password} alt='MahaDBT password' height={45} className='pl-44 ' />
+                <div className='mt-6 justify-between items-center pl-48 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0h-50'>
+                    <img src={password} alt='MahaDBT password' height={45} className='pl-44 ss:pl-0 xs:pl-0 xxs:pl-0 2ss:pl-0' />
                 </div>
-                <ul className='mt-6 list-disc'>
+                <ul className='mt-6 list-disc ss:pl-4 xs:pl-4 xxs:pl-4 2ss:pl-4'>
                     <li>तुमचे वापरकर्तानाव, पासवर्ड टाका, पासवर्डची पुष्टी करा, कॅप्चा पूर्ण करा आणि <b>“नोंदणी करा”</b> वर क्लिक करा.</li>
                     <li>यशस्वी नोंदणीनंतर, एक संदेश पुष्टी करेल, <b>"प्रोफाइल यशस्वीरित्या तयार केले"</b>. महाडीबीटी पोर्टलवर लॉग इन करण्यासाठी तुमचे नोंदणीकृत वापरकर्तानाव आणि पासवर्ड वापरा.</li>
                 </ul>

@@ -10,7 +10,9 @@ function App() {
   <div>
     <Navbar/>
     <InformationData/>
+    <div className='w-full'>
     <Comment/>
+    </div>
   </div>
    </>
   )

@@ -36,12 +36,12 @@ const Comment = () => {
 
   
   return (
-    <div className='   space-y-6 w-full '>
- <div className="relative  items-top justify-center  sm:mt-0 sm:pt-0 bg-gray-100">
+    <div className='   space-y-6 w-full  '>
+ <div className="relative  items-top justify-center  sm:mt-0 sm:pt-0 ">
     <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
         <div className="mt-8 overflow-hidden">
             <div>
-                <div className="p-6 mr-2 bg-gray-100 sm:rounded-lg">
+                <div className="p-6 mr-2 sm:rounded-lg">
                    
                     <p className="text-normal text-lg sm:text-2xl font-medium text-gray-600 mt-6">
                      Leave Comment Here
