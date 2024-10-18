@@ -11,7 +11,7 @@ function App() {
     <HelmetProvider>
     <>
     <Navbar/>
-       <div className="h-screen overflow-y-scroll snap-y snap-mandatory  justify-center items-center">
+       <div className="h-screen  snap-y snap-mandatory  justify-center items-center">
       <section className=" ">
         <Page1/>
         <Comment/>
