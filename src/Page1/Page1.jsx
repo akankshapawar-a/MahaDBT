@@ -1,22 +1,17 @@
 import React from 'react'
 import photo4 from '../assets/photo4.jpg'
 import image1 from '../assets/image1.png'
-import { Helmet } from 'react-helmet-async'; 
+import { Helmet } from 'react-helmet'
 
 const Page1 = () => {
   return (
     <div className='mt-2 pl-10 pr-5'>
+ <Helmet>
+    <title>Lek Ladki Yojana Maharashtra - Government Scheme</title>
+    <meta name="description" content="Learn about the Lek Ladki Yojana Maharashtra. Find details on how the scheme helps girls receive up to Rs. 1,01,000 from the government." />
 
-<Helmet>
-        <title>Lek Ladki Yojana Maharashtra - Government Scheme</title>
-        <meta name="description" content="Learn about the Lek Ladki Yojana Maharashtra. Find details on how the scheme helps girls receive up to Rs. 1,01,000 from the government." />
-        <meta name="keywords" content="Lek Ladki Yojana, Maharashtra government schemes, financial aid for girls, government assistance" />
-        <meta property="og:title" content="Lek Ladki Yojana Maharashtra" />
-        <meta property="og:description" content="Maharashtra's Lek Ladki Yojana provides financial aid for girls, offering up to Rs. 1,01,000." />
-        <meta property="og:image" content={photo4} />
-        <meta property="og:url" content="" />
-        <link rel="canonical" href="" />
-      </Helmet>
+    </Helmet>
+
 
       <h1 className='font-bold text-2xl mb-10 mt-6 text-center'>Lek Ladki Yojana Maharashtra</h1>
      <p className='text-xl font-bold pl-10  '> Lek Ladki Yojana Maharashtra:  लेक लाडकी योजनेतून मुलींना मिळणार 1 लाख 1 हजार रुपये, घरी बसून असे करा अर्ज ..... </p>

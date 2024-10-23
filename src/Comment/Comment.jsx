@@ -1,5 +1,7 @@
 import React, { useRef } from 'react'
 import emailjs from 'emailjs-com';
+import { Helmet } from 'react-helmet'
+import ReactGA from "react-ga4"
 
 const Comment = () => {
 
@@ -8,6 +10,13 @@ const Comment = () => {
   
   function sendEmail(event) {
     event.preventDefault();
+    ReactGA.event({
+      category: "button",
+      action: "submit",
+      label: "Button", 
+
+    });
+    
     if (formRef.current) {
       const formData = new FormData(formRef.current);
       const data={};
@@ -37,6 +46,11 @@ const Comment = () => {
   
   return (
     <div className='   space-y-6 w-full '>
+      <Helmet>
+    <title>Lek Ladki Yojana Maharashtra - Government Scheme</title>
+    <meta name="description" content="Learn about the Lek Ladki Yojana Maharashtra. Find details on how the scheme helps girls receive up to Rs. 1,01,000 from the government." />
+
+    </Helmet>
  <div className="relative  items-top justify-center  sm:mt-0 sm:pt-0 bg-gray-100">
     <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
         <div className="mt-8 overflow-hidden">
