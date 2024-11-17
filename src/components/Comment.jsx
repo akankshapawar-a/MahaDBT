@@ -1,5 +1,7 @@
 import React, { useRef } from 'react'
 import emailjs from 'emailjs-com';
+import { Helmet } from 'react-helmet'
+import ReactGA from "react-ga4"
 
 const Comment = () => {
 
@@ -37,6 +39,11 @@ const Comment = () => {
   
   return (
     <div className='   space-y-6 w-full '>
+            <Helmet>
+            <title>MahaDBT Scholarship - Government Scheme</title>
+            <meta name="description" content="The Maha DBT scheme is a government of Maharashtra program that provides scholarships and subsidies to students and residents of the state" />
+    </Helmet>
+
  <div className="relative  items-top justify-center  sm:mt-0 sm:pt-0 bg-gray-100">
     <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
         <div className="mt-8 overflow-hidden">

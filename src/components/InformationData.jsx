@@ -8,10 +8,16 @@ import click from '../assets/click.jpg'
 import verify from '../assets/Verify.jpg'
 import NewRegistration from '../assets/NewRegistration.webp'
 import password from '../assets/password.jpg'
+import { Helmet } from 'react-helmet'
+
 const InformationData = () => {
     return (
 
         <>
+           <Helmet>
+            <title>MahaDBT Scholarship - Government Scheme</title>
+            <meta name="description" content="The Maha DBT scheme is a government of Maharashtra program that provides scholarships and subsidies to students and residents of the state" />
+    </Helmet>
             <div className=" w-11/12 justify-center ml-16 " >
                 <h1 className='font-bold text-2xl mb-10 mt-6 text-center'>MahaDBT Scholarship 2024-25: Schemes
 
