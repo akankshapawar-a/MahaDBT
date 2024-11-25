@@ -7,7 +7,7 @@ const Page1 = () => {
   return (
     <div className='mt-2 pl-10 pr-5'>
  <Helmet>
-    <title>Lek Ladki Yojana Maharashtra - Government Scheme</title>
+    <title>Lek Ladki Yojana Maharashtra - Government Schemes</title>
     <meta name="description" content="Learn about the Lek Ladki Yojana Maharashtra. Find details on how the scheme helps girls receive up to Rs. 1,01,000 from the government." />
 
     </Helmet>
