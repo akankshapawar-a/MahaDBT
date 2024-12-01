@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div >
-      <nav className="bg-white  dark:bg-gray-800 " >
+      <nav className="bg-white dark:text-black dark:bg-gray-300 " >
 
         <div className="mx-auto max-w-5xl ss:w-scrren px-2 sm:px-6  ">
           <div className="relative flex h-16 items-center justify-between">
@@ -67,23 +67,23 @@ const Navbar = () => {
                 <div className="flex space-x-6 pl-20 ml-20">
                   <a href=""
                    
-                    className="text-black hover:bg-gray-300 hover:text-black rounded-md px-3 py-2 text-lg font-medium dark:text-white "
+                    className="text-black hover:bg-gray-300 hover:text-black rounded-md px-3 py-2 text-lg font-medium dark:text-black "
                     aria-current="page"
                   >
                     Home
                   </a>
                  <a href=""
-                    className="text-black hover:bg-gray-300 hover:text-black rounded-md px-3 py-2 text-lg font-medium  dark:text-white"
+                    className="text-black hover:bg-gray-300 hover:text-black rounded-md px-3 py-2 text-lg font-medium  dark:text-black"
                   >
                     About
                   </a>
                    <a href=""
-                    className="text-black hover:bg-gray-300 hover:text-black rounded-md px-3 py-2 text-lg font-medium  dark:text-white"
+                    className="text-black hover:bg-gray-300 hover:text-black rounded-md px-3 py-2 text-lg font-medium dark:text-black"
                   >
                     Service
                   </a>
                    <a href=""
-                    className="text-black hover:bg-gray-300 hover:text-black rounded-md px-3 py-2 text-lg font-medium  dark:text-white"
+                    className="text-black hover:bg-gray-300 hover:text-black rounded-md px-3 py-2 text-lg font-medium  dark:text-black"
                   >
                     Contact
                   </a>
