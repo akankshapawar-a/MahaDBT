@@ -59,7 +59,7 @@ const Navbar = () => {
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <div className="flex flex-shrink-0 items-center">
                 <div className="h-8 w-auto  ">
-                                <h1 className="font-bold text-2xl ss:text-base"> Maharashtra-Sarkari Yogana</h1>
+                                <h1 className="font-bold text-2xl ss:text-base text-white"> Maharashtra-Sarkari Yogana</h1>
 
                 </div> 
               </div>

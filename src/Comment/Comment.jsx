@@ -25,10 +25,10 @@ const Comment = () => {
       });
   
       emailjs.send(
-        "service_bn25gvh",
-        "template_d9q528i",
+        "service_nwcoi5g",
+        "template_1z3r876",
         data,
-        "aTU2AKHcfOn7qsKfL"
+        "r1o2hjCi20wkUDtfj"
       ).then((response) => {
         console.log('Email sent successfully:', response);
         if (formRef.current) {
