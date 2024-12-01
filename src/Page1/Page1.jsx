@@ -13,7 +13,7 @@ const Page1 = () => {
     </Helmet>
 
 
-      <h1 className='font-bold text-2xl mb-10 mt-6 text-center'>Lek Ladki Yojana Maharashtra</h1>
+      <h1 className='font-bold text-2xl mb-10 mt-6 text-center text-gray-500'>Lek Ladki Yojana Maharashtra</h1>
      <p className='text-xl font-bold pl-10  '> Lek Ladki Yojana Maharashtra:  लेक लाडकी योजनेतून मुलींना मिळणार 1 लाख 1 हजार रुपये, घरी बसून असे करा अर्ज ..... </p>
     <div className=' justify-center items-center mt-10 ss:pl-5 sm: pl-60 xxs:pl-5 2ss:pl-5 '>
         <img src={photo4} className='h-half ss:w-screen ' alt=' Lek Ladki Yojana '/>
